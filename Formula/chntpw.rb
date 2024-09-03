@@ -6,7 +6,7 @@ class Chntpw < Formula
   revision 1
   head "https://github.com/sidneys/chntpw.git", branch: "master"
 
-  depends_on "cubem10/sidneys/homebrew/openssl@1.0"
+  depends_on "cubem10/sidneys-homebrew/openssl@1.0"
 
   def install
     if Hardware::CPU.arm?
