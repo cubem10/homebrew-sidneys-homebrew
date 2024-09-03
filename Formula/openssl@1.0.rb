@@ -11,7 +11,7 @@ class OpensslAT10 < Formula
     "openssl/libressl is provided by macOS so don't link an incompatible version"
 
   patch do
-    url "https://gist.githubusercontent.com/felixbuenemann/5f4dcb30ebb3b86e1302e2ec305bac89/raw/b339a33ff072c9747df21e2558c36634dd62c195/openssl-1.0.2u-darwin-arm64.patch"
+    url "https://raw.githubusercontent.com/cubem10/sidneys-homebrew-homebrew/master/openssl-1.0.2u-darwin-arm64.patch"
     sha256 "4ad22bcfc85171a25f035b6fc47c7140752b9ed7467bb56081c76a0a3ebf1b9f"
   end
 
